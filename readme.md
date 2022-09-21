@@ -10,4 +10,28 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+Clone the repository locally via
+```sh
+git clone https://github.com/ObelusFamily/Anythink-Market-acs0t.git
+
+```
+
+[install Docker](https://docs.docker.com/get-docker/)
+
+To verify if docker is ready.
+run the following commands in your terminal
+```sh
+docker -v
+```
+and
+```sh
+docker-compose -v
+```
+
+Then, run
+```sh
+docker-compose up
+```
+from the project root directory to load Anythink's backend and frontend.
+
+pointing your browser to ```http://localhost:3000/api/ping``` to view the API and ```http://localhost:3001``` to view the frontend
